@@ -27,6 +27,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import Bell_logo from "./company/Bell_logo.png";
+import Lyriks from "./tech/Lyriks.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -63,4 +64,5 @@ export {
   jobit,
   tripguide,
   Bell_logo,
+  Lyriks,
 };
