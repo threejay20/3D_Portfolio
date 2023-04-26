@@ -4,7 +4,7 @@ import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto"> 
+    <section className={'relative w-full h-screen mx-auto'}>
     
     
     <div className={`${styles.paddingX} absolute inset-0 top-[120px] mx-auto flex-row items-start gap-5`}>
@@ -15,9 +15,21 @@ const Hero = () => {
 
       </div>
 
-
-    </div>
-
+      <div>
+       
+        <h1 className={`${styles.heroHeadText}
+         text-white`}> Hi, I'm <span className="text-[#915eff]"> Justin
+          </span></h1>
+          <p className={`${styles.heroSubText} mt-2
+           text-white-100`}>
+            I develop user interfaces and web applications
+            
+            </p>
+            
+             </div>
+             
+             </div>
+    <ComputersCanvas/>
     </section>
   )
 }
