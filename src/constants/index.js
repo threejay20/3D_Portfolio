@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    Bell_logo,
   } from "../assets";
   
   export const navLinks = [
@@ -156,10 +157,10 @@ import {
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Bell Canada",
+      icon: Bell_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "March 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
