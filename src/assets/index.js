@@ -28,6 +28,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import Bell_logo from "./company/Bell_logo.png";
 import Lyriks from "./tech/Lyriks.png";
+import Title_Exercise from "./tech/Title_Exercise.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,4 +66,5 @@ export {
   tripguide,
   Bell_logo,
   Lyriks,
+  Title_Exercise,
 };

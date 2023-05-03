@@ -25,6 +25,7 @@ import {
     threejs,
     Bell_logo,
     Lyriks,
+    Title_Exercise,
   } from "../assets";
   
   export const navLinks = [
@@ -220,6 +221,28 @@ import {
       image: Lyriks,
       source_code_link: "https://github.com/threejay20/Lyriks.git",
     },
+
+    {
+      name: "Exercise App",
+      description:
+        "Web-based platform that allows users to search, play, and sing along with their favorite artists.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapidApi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Title_Exercise,
+      source_code_link: "https://github.com/threejay20/gym_exercises.git",
+    }
     // {
     //   name: "Job IT",
     //   description:
@@ -263,5 +286,8 @@ import {
     //   source_code_link: "https://github.com/",
     // },
   ];
+
+  
+ 
   
   export { services, technologies, experiences, testimonials, projects };
