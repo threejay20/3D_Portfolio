@@ -33,6 +33,7 @@ import Title_Exercise from "./tech/Title_Exercise.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Finanseer from "./tech/Finanseer.png";
 
 
 export {
@@ -67,4 +68,5 @@ export {
   Bell_logo,
   Lyriks,
   Title_Exercise,
+  Finanseer,
 };

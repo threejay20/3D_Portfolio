@@ -26,6 +26,7 @@ import {
     Bell_logo,
     Lyriks,
     Title_Exercise,
+    Finanseer,
   } from "../assets";
   
   export const navLinks = [
@@ -225,7 +226,7 @@ import {
     {
       name: "Exercise App",
       description:
-        "Web-based platform that allows users to search, play, and sing along with their favorite artists.",
+        "Web-based platform that allows users to search, learn, and watch specific exercises to ensure maximum fitness success.",
       tags: [
         {
           name: "react",
@@ -242,28 +243,32 @@ import {
       ],
       image: Title_Exercise,
       source_code_link: "https://github.com/threejay20/gym_exercises.git",
-    }
-    // {
-    //   name: "Job IT",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
+    },
+    {
+      name: "Finanseer",
+      description:
+        "Web application that keeps track of companies profits as well as predicts future revenue through simple Machine Learning.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mongo-Db",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: Finanseer,
+      source_code_link: "https://github.com/threejay20/finance-app.git",
+    },
     // {
     //   name: "Trip Guide",
     //   description:
