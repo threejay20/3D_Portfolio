@@ -27,6 +27,7 @@ import {
     Lyriks,
     Title_Exercise,
     Finanseer,
+    AdminApp,
   } from "../assets";
   
   export const navLinks = [
@@ -268,6 +269,31 @@ import {
       ],
       image: Finanseer,
       source_code_link: "https://github.com/threejay20/finance-app.git",
+    },
+    {
+      name: "AdminApp",
+      description:
+        "Web application that helps manage a company's results",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Data Grid",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: AdminApp,
+      source_code_link: "https://github.com/threejay20/react-admin",
     },
     // {
     //   name: "Trip Guide",

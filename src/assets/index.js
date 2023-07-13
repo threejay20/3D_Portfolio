@@ -34,6 +34,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Finanseer from "./tech/Finanseer.png";
+import AdminApp from "./tech/AdminApp.png";
 
 
 export {
@@ -69,4 +70,5 @@ export {
   Lyriks,
   Title_Exercise,
   Finanseer,
+  AdminApp,
 };
