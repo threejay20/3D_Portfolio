@@ -28,6 +28,7 @@ import {
     Title_Exercise,
     Finanseer,
     AdminApp,
+    RealEstateApp,
   } from "../assets";
   
   export const navLinks = [
@@ -295,27 +296,27 @@ import {
       image: AdminApp,
       source_code_link: "https://github.com/threejay20/react-admin",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Real Estate",
+      description:
+        "A comprehensive property listing site for any Real estate broker.",
+      tags: [
+        {
+          name: "nextjs 13",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: RealEstateApp,
+      source_code_link: "https://github.com/threejay20/RealEstate.git",
+    },
   ];
 
   

@@ -35,7 +35,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Finanseer from "./tech/Finanseer.png";
 import AdminApp from "./tech/AdminApp.png";
-
+import RealEstateApp from "./tech/RealEstateApp.png";
 
 export {
   logo,
@@ -71,4 +71,5 @@ export {
   Title_Exercise,
   Finanseer,
   AdminApp,
+  RealEstateApp,
 };
